@@ -7,7 +7,7 @@ from google.cloud import bigquery, storage
 from google.oauth2 import service_account
 
 # Authenticate with service account
-credentials = service_account.Credentials.from_service_account_file("service_account.json")
+credentials = service_account.Credentials.from_service_account_file("credentials.json")
 project_id = credentials.project_id
 bq_client = bigquery.Client(credentials=credentials, project=project_id)
 storage_client = storage.Client(credentials=credentials, project=project_id)
