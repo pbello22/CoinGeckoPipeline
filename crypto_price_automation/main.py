@@ -8,7 +8,7 @@ from google.cloud import bigquery, storage
 
 @functions_framework.http
 def crypto_price_job(request):
-    project_id = "portfolio-457020"
+    project_id = "insert_project_here(removed for github)"
     bq_client = bigquery.Client(project=project_id)
     storage_client = storage.Client(project=project_id)
 
