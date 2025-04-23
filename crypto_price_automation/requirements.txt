@@ -1,0 +1,6 @@
+functions-framework==3.5.0
+requests
+pandas
+google-cloud-bigquery
+google-cloud-storage
+pyarrow
